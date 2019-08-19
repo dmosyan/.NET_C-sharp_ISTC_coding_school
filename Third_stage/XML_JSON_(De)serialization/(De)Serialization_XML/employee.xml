@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <FirstName>Bob</FirstName>
+    <LastName>Johnson</LastName>
+    <Department>Marketing</Department>
+  </Employee>
+  <Employee>
+    <FirstName>Tom</FirstName>
+    <LastName>Smith</LastName>
+    <Department>Accounting</Department>
+  </Employee>
+  <Employee>
+    <FirstName>John</FirstName>
+    <LastName>Brown</LastName>
+    <Department>Development</Department>
+  </Employee>
+</ArrayOfEmployee>
