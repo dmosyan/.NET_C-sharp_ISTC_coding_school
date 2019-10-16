@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3a53310529dd4984b9d354209a0f9947" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectModel.Actor" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Director" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Genre" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Movie" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Room" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Schedule" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.Session" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ProjectModel.FK__Movie__DirecorID__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectModel.FK__Movie__GenreID__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectModel.FK__Schedule__MovieI__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectModel.FK__Schedule__Room__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectModel.FK__Schedule__DateTi__6FE99F9F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
